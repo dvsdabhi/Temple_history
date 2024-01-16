@@ -9,10 +9,10 @@ function App() {
   return (
     <>
       <div className='flex h-screen'>
-        <div>
+        <div className='xsm:hidden sm:hidden'>
           <Header/>
         </div>
-        <div className='w-full py-10 pl-5 flex flex-col flex-1 overflow-hidden'>
+        <div className='w-full py-10 pl-5 xsm:pl-3 flex flex-col flex-1 overflow-hidden'>
           <Routes>
             <Route path='/' element={<Home/>} />
             <Route path='/dwarka' element={<Dwarka/>} />

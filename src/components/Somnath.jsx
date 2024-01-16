@@ -42,7 +42,6 @@ const Somnath = () => {
         setImage(true);
     }
 
-
     return (
         <>
             <div className="space-y-4 overflow-auto h-screen">
@@ -53,7 +52,7 @@ const Somnath = () => {
                     <img src={img} alt="" />
                 </div>
                 <h1 className="text-xl font-bold">History Of Somnath Temple</h1>
-                <div className="flex gap-5">
+                <div className="flex gap-5 xsm:gap-2">
                     <button onClick={onButtonClickEnglish} className="border-2 border-gray-400 rounded-md p-2">English</button>
                     <button onClick={onButtonClickHindi} className="border-2 border-gray-400 rounded-md p-2">Hindi</button>
                     <button onClick={onButtonClickGujrati} className="border-2 border-gray-400 rounded-md p-2">Gujrati</button>
